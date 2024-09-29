@@ -1,0 +1,22 @@
+{
+  "name": "blame-cli",
+  "version": "1.0.3",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "blame": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^11.1.0"
+  }
+}

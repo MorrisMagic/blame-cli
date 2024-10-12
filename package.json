@@ -1,18 +1,23 @@
 {
   "name": "blame-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "type": "module",
   "bin": {
     "blame": "index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MorrisMagic/blame-cli"
+  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Youssef Habbachi (https://github.com/MorrisMagic)",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "chalk": "^5.3.0",

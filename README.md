@@ -17,7 +17,7 @@ To install **Blame** globally, run the following command:
 npm install -g blame-cli
 ```
 
-## To run 💻
+## To run 💻>
 
 ```bash
 npx blame-cli
